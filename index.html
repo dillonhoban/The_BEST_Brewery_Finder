@@ -1,14 +1,50 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="reset-csss" href= https://meyerweb.com/eric/tools/css/reset/reset.css>
-    <link rel="shortcut icon" href="Assets/images/favicon.png" type="image/x-icon">
     <title>The BEST Brewery Finder</title>
+    <link rel="reset-csss" href=https://meyerweb.com/eric/tools/css/reset/reset.css> <link rel="stylesheet"
+        href="./Assets/css/foundation.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="shortcut icon" href="Assets/images/favicon.png" type="image/x-icon">
+
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="grid-container">
+        <header class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+                <h1>The Best Ever Brewery Finder</h1>
+            </div>
+        </header>
+
+        <main>
+            <form>
+
+                <div class="grid-x grid-padding-x" id="brew-input-box">
+                    <div class="large-3 medium-3 small-3 cell">
+
+                    </div>
+                    <div class="large-6 medium-6 small-6 cell">
+                        <h5>Find breweries near you!</h5>
+                        <input type="text" placeholder="Enter a city" />
+                    </div>
+                    <div class="large-3 medium-3 small-3 cell">
+
+                    </div>
+                </div>
+                <div class="large-4 medium-4 cell" id="brew-search-button">
+                    <p><a href="#" class="button">Search</a><br />
+                    </p>
+                </div>
+            </form>
+
+        </main>
+    </div>
 </body>
 <script src="Assets/js/script.js"></script>
+<script src="Assets/js/vendor.js"></script>
+<script src="Assets/js/foundation.js"></script>
+
 </html>
