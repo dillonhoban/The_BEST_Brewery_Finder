@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,28 +15,32 @@
 
 <body>
     <div class="grid-container">
-
+        <!-- Main container with search functions -->
         <main>
             <div class="large-6 cell">
                 <h1>The Best Ever Brewery Finder</h1>
             </div>
             <div class="grid-x grid-padding-x input-div">
+                <!-- Spacer div -->
                 <div class="large-3 medium-3 small-3 cell"></div>
+                <!-- Search box  -->
                 <div class="large-6 medium-6 small-6 cell input-div">
                     <h3>Find breweries near you!</h3>
-                    <input type="text" placeholder="Enter a city" id="brew-input-box" />
+                    <input type="text" placeholder="Enter a city" id="brew-input-box" value="San Diego" />
                 </div>
+                <!-- Spacer div -->
                 <div class="large-3 medium-3 small-3 cell"></div>
             </div>
+            <!-- Search button -->
             <div class="large-4 medium-4 cell" id="brew-search-button">
                 <h3><a class="button">Search</a><br />
                 </h3>
             </div>
-            <div id="brew-data-div">
-
-            </div>
-
         </main>
+        <section>
+            <!-- Search results will go here -->
+            <div id="brew-data-div"></div>
+        </section>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
