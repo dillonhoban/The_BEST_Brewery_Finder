@@ -1,13 +1,13 @@
 # The BEST Brewery Finder
 A brewery locater developed by Austin Perez, Dillon Hoban, and Tim Hoyt
 
+![Homepage image](###)
+
 ## Deployment
-Click the link [here](https://dillonhoban.github.io/The_BEST_Brewery_Finder/) to check out our site in your browser.
+Click the **[link here](https://dillonhoban.github.io/The_BEST_Brewery_Finder/)** to check out our site in your browser.
 
 ## Acknowledgments
-Background image provided by [JustBeer](https://justbeerapp.com/article/how-the-foam-on-your-beer-keeps-it-from-spilling)
-APIs used include [OpenBrewery](https://www.openbrewerydb.org/) and [LinkPreview](https://www.linkpreview.net/)
-Framework used [Foundation](https://get.foundation/) by ZURB
+Background image provided by [JustBeer](https://justbeerapp.com/article/how-the-foam-on-your-beer-keeps-it-from-spilling)<br>APIs used include [OpenBrewery](https://www.openbrewerydb.org/) and [LinkPreview](https://www.linkpreview.net/)<br>Framework used [Foundation](https://get.foundation/) by ZURB
 
 ## Validation 
 This site’s HTML was validated using a third party service found [here.](https://validator.w3.org/)

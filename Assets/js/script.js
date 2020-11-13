@@ -22,6 +22,7 @@ $(document).ready(function () {
                 for (var i = 0; i < response.length; i++) {
                     var breweryName = response[i].name;
                     var breweryURL = response[i].website_url;
+                    // $("#brew-data-div").attr(".new-brew-div");
 
                     $.ajax({
                         url: "https://api.linkpreview.net?key=" + apiKeyAP + "&q=" + breweryURL,
