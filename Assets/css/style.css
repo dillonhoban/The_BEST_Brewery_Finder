@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-image: url("../images/beer_foam_background_1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    padding-top: 1em;
+    background: rgba(128, 128, 128, 0.75);
+    border-radius: 2em;
+}
+
+.grid-container {
+    width: 50%;
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h3,
+h1 {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Permanent Marker', cursive;
+}
+
