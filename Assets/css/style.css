@@ -8,26 +8,42 @@ body {
     background-position: center;
 }
 
-main {
-    padding-top: 1em;
-    background: rgba(128, 128, 128, 0.75);
+main,
+.new-brew-div {
+    padding: 1em;
+    background: rgba(175, 174, 174, 0.75);
     border-radius: 2em;
 }
 
-.new-brew-div {
-    background: rgba(128, 128, 128, 0.75);
+h3,
+h1 {
+    font-family: 'Pacifico', cursive;
 }
 
-.grid-container {
+p,
+a {
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: bolder;
+}
+
+main {
     width: 50%;
     margin-top: 10%;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 
-h3,
-h1 {
-    font-family: 'Pacifico', cursive;
+#data-div {
+    width: 75%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-brew-div {
+    margin-bottom: 5%;
 }
